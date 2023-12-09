@@ -1,0 +1,17 @@
+from queue import Queue
+
+# Step 1: Create a Queue
+my_queue = Queue()
+
+# Step 2: Create an object for the Queue
+# Already done in the line above
+
+# Step 3: Add an element to the Queue
+my_queue.put(42)
+
+# Step 4: Pop an element from the Queue
+popped_element = my_queue.get()
+
+# Step 5: Show the output
+print(f"Added element: 42")
+print(f"Popped element: {popped_element}")
