@@ -1,0 +1,22 @@
+from queue import PriorityQueue
+
+# Step 1: Create a Priority Queue
+my_priority_queue = PriorityQueue()
+
+# Step 2: Create an object for the Priority Queue
+# Already done in the line above
+
+# Step 3: Add elements to the Priority Queue
+my_priority_queue.put((3, "Apple"))
+my_priority_queue.put((1, "Banana"))
+my_priority_queue.put((2, "Cherry"))
+
+# Step 4: Pop an element from the Priority Queue
+popped_element = my_priority_queue.get()
+
+# Step 5: Show the output
+print("Added elements to Priority Queue:")
+while not my_priority_queue.empty():
+    print(my_priority_queue.get())
+
+print(f"\nPopped element from Priority Queue: {popped_element}")
